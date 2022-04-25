@@ -1,13 +1,16 @@
-h1, h3 {
-    text-align: center;
-    font-family: 'Titillium Web', sans-serif;
+h1,
+h3 {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
 }
 
 header {
-    background-color: #B3D4FC;
+  background-color: #b3d4fc;
 }
 
 p#kanye-quote {
-    text-align: center;
+  text-align: center;
+  border-width: 3px;
+  border-style: dotted;
+  border-color: black;
 }
-

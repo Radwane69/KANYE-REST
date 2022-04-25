@@ -7,14 +7,11 @@ function getQuote() {
         } else if(this.readyState != 4) {
               document.getElementById("kanye-quote").innerHTML = "Loading...";
         } else {
-              document.getElementById("kanye-quote").innerHTML = "Something went wrong..."
+              document.getElementById("kanye-quote").innerHTML = "..."
         }
     };
-  
     kanye.open("GET", "https://api.kanye.rest/", true);
     kanye.send();
-  
   };
-  
   document.getElementById("refresh").addEventListener("click", getQuote);
   document.getElementById("refresh").addEventListener("click", kanyeSound);
